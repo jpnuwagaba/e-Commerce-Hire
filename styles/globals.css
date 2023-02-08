@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* .scale-down-logo {
+  transform: scale(0.8);
+} */
+
+.push-up-logo {
+  transform: translateY(-2rem);
+}

@@ -6,7 +6,17 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      'inter': ["'Inter', sans-serif"]
+    },
+    extend: {
+      colors: {
+        skyBlue: '#8ecae6',
+        prussianBlue: '#023047',
+        Yellow: '#ffb703',
+        orange: '#fb8500',
+      }
+    },
   },
   plugins: [],
 }
